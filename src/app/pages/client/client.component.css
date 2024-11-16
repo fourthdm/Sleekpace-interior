@@ -1,0 +1,29 @@
+.bg-image {
+    background-image: url('/assets/servicemain.jpg');
+    background-color: #12353f;
+    background-repeat: no-repeat;
+}
+
+.t {
+    padding: 10%;
+    background-color: #12353fbc;
+}
+
+
+
+img {
+    width: 100%;
+    padding: 5%;
+}
+
+.text-start {
+    color: black;
+}
+
+.container-fluid {
+    padding: 2%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}

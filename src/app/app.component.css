@@ -1,0 +1,88 @@
+.dropup {
+    bottom: 5%;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: #ffffff;
+}
+
+@keyframes shake-animation {
+    0% {
+        transform: translate(0, 0)
+    }
+   
+    1.78571% {
+        transform: translate(5px, 0)
+    }
+
+    3.57143% {
+        transform: translate(0, 0)
+    }
+
+    5.35714% {
+        transform: translate(5px, 0)
+    }
+
+    7.14286% {
+        transform: translate(0, 0)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+
+    8.92857% {
+        transform: translate(5px, 0)
+    }
+
+    10.71429% {
+        transform: translate(0, 0)
+    }
+
+    100% {
+
+        transform: translate(0, 0)
+    }
+}
+
+li {
+    color: black;
+}
+
+h6 {
+    color: black;
+}
+
+.fa-whatsapp {
+    color: #21da46;
+}
+
+.fa-instagram {
+    font-size: 30px;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-envelope {
+    color: #bb001b;
+    z-index: 2;
+}
+
+.fa-comment-sms {
+    color: #168AFF;
+}
+
+.btns {
+    background-color: #f8bd4b;
+    animation: shake-animation 4.72s ease infinite;
+    /* transform-origin: 50% 50%; */
+}
+
+.fa-phone-volume {
+    color: #168AFF;
+}

@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 700
+}
+
+.nav-link:hover {
+    /* background-color: #12353f; */
+    /* border-radius: 45%; */
+    color: #f8bd4b;
+    transform: scale(1.1);
+}
+
+.btn-success{
+    background-color: #12353f;
+}

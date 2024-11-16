@@ -1,0 +1,43 @@
+.bg-image {
+    background-image: url('/assets/servicemain.jpg');
+    background-color: #12353f;
+    background-repeat: no-repeat;
+}
+
+.t {
+    padding: 10%;
+    background-color: #12353fbc;
+}
+
+.card {
+    border-color: #12353f;
+}
+
+h1 {
+    color: black;
+}
+
+h5 {
+    color: black;
+    font-weight: 500;
+}
+
+.mapp {
+    border-radius: 5%;
+}
+
+.bgcard {
+    background-image: url('/assets/Background.jpg');
+    /* background-color: #12353f; */
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 5%;
+}
+
+label{
+    color: white;
+}
+
+.formss{
+    padding: 5%;
+}

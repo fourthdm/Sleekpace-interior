@@ -1,0 +1,104 @@
+img {
+    width: 100%;
+}
+
+.textss {
+    padding: 4%;
+}
+
+/* 
+p{
+    text-align: justify;
+} */
+
+.imgcenter {
+    margin-top: 55%;
+    margin-left: -45%;
+    animation: upimage 2s linear;
+}
+
+.imgicon {
+    width: 91px;
+    height: 91px;
+}
+
+.why {
+    background-color: #ffffff;
+    padding: 2%;
+
+    :is(h6) {
+        color: #f9aa0b;
+        font-weight: 500;
+    }
+}
+
+.galleryimg {
+    /* width: 50%;ss */
+    height: 50%;
+}
+
+.scrolling-container {
+    overflow: hidden;
+    height: 500px;
+    /* Adjust the height as needed */
+    position: relative;
+}
+
+.scrolling-content {
+    display: flex;
+    flex-direction: column;
+    animation: scrollLoop 10s linear infinite;
+}
+
+.scrolling-contentp {
+    display: flex;
+    flex-direction: column;
+    animation: scrollLoopup 10s linear infinite;
+}
+
+@keyframes scrollLoop {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+
+    /* Adjust to half the content height */
+}
+
+@keyframes scrollLoopup {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+    /* Adjust to half the content height */
+}
+
+
+.btn-outline-warning:hover {
+    background-color: #f9aa0b;
+    color: white;
+}
+
+
+@keyframes upimage {
+    0% {
+        transform: translatex(-100%);
+    }
+
+    100% {
+        transform: translatex(0%);
+    }
+
+    /* Adjust to half the content height */
+}
+
+.imgicon:hover{
+    transform: scale(1.2);
+}

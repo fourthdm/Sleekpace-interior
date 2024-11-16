@@ -1,0 +1,87 @@
+.bg-image {
+    background-image: url('/assets/servicemain.jpg');
+    background-color: #12353f;
+    background-repeat: no-repeat;
+}
+
+.t {
+    padding: 10%;
+    background-color: #12353fbc;
+}
+
+
+
+.card {
+    border-color: #12353f;
+}
+
+.imgright {
+    /* border-left:15px solid #12353f; */
+    border-radius: 50%;
+    border-right: 15px solid #12353f;
+    /* width: 100%; */
+    animation: scrollLoop 1s linear;
+}
+
+.imgleft {
+    /* border-left:15px solid #12353f; */
+    border-radius: 50%;
+    border-left: 15px solid #12353f;
+    /* width: 100%; */
+    animation: scrollLoopright 1s linear;
+}
+
+.curve {
+    border-left: 15px solid #12353f;
+    border-radius: 50%;
+}
+
+.curvew {
+    border-right: 15px solid #12353f;
+    border-radius: 50%;
+}
+
+p {
+    text-align: justify;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: white;
+    color: #12353f;
+    border: 1px solid #f9aa0b;
+}
+
+@keyframes scrollLoop {
+    0% {
+        transform: translatex(0);
+    }
+
+    100% {
+        transform: translatex(-50%);
+    }
+
+    /* Adjust to half the content height */
+}
+
+@keyframes scrollLoopright {
+    0% {
+        transform: translatex(0);
+    }
+
+    100% {
+        transform: translatex(50%);
+    }
+
+    /* Adjust to half the content height */
+}
+
+.servicess{
+    padding-left: 5%;
+    padding-right: 5%;
+}

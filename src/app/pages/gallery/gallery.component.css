@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url('/assets/servicemain.jpg');
+    background-color: #12353f;
+    background-repeat: no-repeat;
+}
+
+.t {
+    padding: 10%;
+    background-color: #12353fbc;
+}
+
+.nav-link{
+    background-color: #12353f;
+    color: wheat;
+    border-radius: 5%;
+}
+
+img{
+    width: 100%;
+    border-radius: 5%;
+}
